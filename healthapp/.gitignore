@@ -60,3 +60,44 @@ vendor/
 # OS
 Thumbs.db
 .DS_Store
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Flutter metadata
+.metadata
+
+# Android
+android/.gradle/
+android/local.properties
+android/.kotlin/
+android/app/build/
+android/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
